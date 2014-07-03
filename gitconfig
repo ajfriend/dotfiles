@@ -1,0 +1,5 @@
+[user]
+	name = AJ Friend
+	email = ajfriend@gmail.com
+[credential]
+	helper = osxkeychain

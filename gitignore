@@ -1,0 +1,4 @@
+# gitignore for user global settings
+.DS_Store
+*.pyc
+*.o
