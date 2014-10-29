@@ -15,6 +15,7 @@ install python
 install emacs
 install ack
 install ag
+install mobile-shell
 
 tap homebrew/versions
 install gcc49
@@ -50,7 +51,7 @@ install gcc
 # all cask things are symlinked to ~/Applications, so only available to single user
 
 # do this before matplotlib and ipython
-cask install mactex
+#cask install mactex
 # then, make sure to restart terminal, so that latex is in path
 
 cask install google-chrome
@@ -66,4 +67,6 @@ cask install marked --appdir=/Applications
 # then add extras for sublime
 cask install keepassx
 cask install steam
+cask install pdftk
+cask install spectacle
 
