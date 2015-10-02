@@ -9,6 +9,7 @@ install brew-cask
 install htop
 install wget
 install git
+install mosh
 install python
 # does git get linked properly?
 # run `echo export PATH='/usr/local/bin:$PATH' >> ~/.bash_profile`
@@ -41,12 +42,6 @@ install zmq
 # pip install virtualenv
 # pip install nose
 
-# uninstall gcc
-#this is because, at some point, something needed gcc, but this overwrites the apple gcc/clang
-# however, i need to reinstall gcc to get scipy to work with cvxpy
-install gcc
-# for some reason, this time, it doesn't overwrite the system gcc
-
 
 # all cask things are symlinked to ~/Applications, so only available to single user
 
@@ -59,16 +54,16 @@ cask install iterm2
 cask install virtualbox
 # do i need the virtual box extras?
 cask install vagrant
+cask install vagrant-manager
 cask install vlc
 cask install spotify
 cask install transmission
 cask install marked --appdir=/Applications
 # need to add license
 # then add extras for sublime
-cask install keepassx
 cask install steam
 cask install pdftk
 cask install spectacle
 cask install appcleaner
-cask install tower
+
 
