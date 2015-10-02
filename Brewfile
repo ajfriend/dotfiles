@@ -69,4 +69,6 @@ cask install keepassx
 cask install steam
 cask install pdftk
 cask install spectacle
+cask install appcleaner
+cask install tower
 

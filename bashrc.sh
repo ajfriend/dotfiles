@@ -11,8 +11,9 @@ source ~/.bash_prompt
 # ln -s $HOME/Dropbox/dotfiles/.bash_profile $HOME/.bash_profile
 # ln -s $HOME/Dropbox/dotfiles/.gitconfig $HOME/.gitconfig
 # ln -s $HOME/Dropbox/dotfiles/.gitignore $HOME/.gitignore
-export PATH=/usr/local/bin:$PATH
+#export PATH=/usr/local/bin:$PATH
 export EDITOR=emacs
+export HOMEBREW_EDITOR=subl
 
 alias kona='ssh ajfriend@kona.stanford.edu'
 alias kona64='ssh ajfriend@kona64.stanford.edu'
@@ -53,3 +54,10 @@ export LESS=-RFX
 if [ -e ~/.bash_local ] ; then
   . ~/.bash_local
 fi
+
+# add homebrew installed coreutils to be default
+# export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+# export PATH=~/bin:$PATH
+
+# for pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi

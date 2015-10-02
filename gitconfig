@@ -3,3 +3,5 @@
 	email = ajfriend@gmail.com
 [credential]
 	helper = osxkeychain
+[push]
+	default = simple
